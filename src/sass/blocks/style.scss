@@ -1,9 +1,18 @@
 @use "../base/variables";
+@use '../blocks/promo';
+@use "../blocks/header";
+@use "../blocks/buttons";
+@use "../blocks/advantages";
+@use "../blocks/title";
+@use "../blocks/media";
+@use "../blocks/consultation";
+@use "../blocks/forms";
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
-
-.container{
-    min-width: 950px;
+.container {
+    max-width: 950px;
     margin: 0 auto;
+
 }
+

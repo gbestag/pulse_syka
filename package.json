@@ -18,6 +18,7 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
     "browser-sync": "^3.0.3",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",

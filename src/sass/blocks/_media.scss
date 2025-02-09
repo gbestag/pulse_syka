@@ -1,0 +1,134 @@
+@media all and (max-width:1200px){
+    .promo{
+        padding: 20px 0px 90px 0px;
+        height: 600px;
+    }
+}
+
+
+@media all and (max-width:996px){
+    .promo{
+        min-height: 600px;
+        padding: 19px 11px 89px 11px;
+        height: 600px;
+        .header {
+            &__logo {
+                width: 200px;
+            }
+            &__official {
+                font-size: 12px;
+                span{
+                    font-size: 16px;
+                }
+            }
+            &__phone{
+               font-size: 16px; 
+            } 
+        }
+        .button{
+            width: 130px;
+            height: 27px;
+            font-size: 11px;
+            &_main{
+                margin-top: 58px;
+                width: 250px;
+                height: 50px;;
+                font-size: 14px;
+            }
+        }
+        &__header{
+            font-size: 33px;
+            line-height: 37px;
+        }
+        &__subheader{
+            font-size: 18px;
+            line-height: 21px;
+        }
+        &__icons{
+            width: 353px;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 13px;
+            font-weight: 500;
+            img {
+                margin-bottom: 17px;
+            }
+        }
+        &__link{
+            font-size: 13px;
+            line-height: 47px;
+        }
+    }
+}
+
+@media all and (max-width:850px){
+    .promo{
+        min-height: 500px;
+        height: 500px;
+        padding: 18px 15px 98px 15px;
+        .header {
+            &__logo {
+                width: 180px;
+            }
+            &__official {
+                font-size: 10px;
+                span{
+                    font-size: 14px;
+                }
+            }
+            &__phone{
+               font-size: 14px; 
+            } 
+        }
+        .button{
+            width: 123px;
+            height: 30px;
+            font-size: 11px;
+            &_main{
+                margin-top: 44px;
+                width: 214px;
+                height: 50px;;
+                font-size: 13px;
+            }
+        }
+        &__wrapper{
+            margin-top: 39px;
+        }
+        &__header{
+            font-size: 29px;
+            line-height: 30px;
+        }
+        &__subheader{
+            font-size: 16px;
+            line-height: 0px;
+        }
+        &__icons{
+            width: 316px;
+            margin-top:50px ;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 12px;
+            font-weight: 500;
+            img {
+                margin-bottom: 17px;
+            }
+        }
+        &__link{
+            font-size: 11px;
+            line-height: 30px;
+        }
+    } 
+}
+@media all and (max-width:650px){
+    .promo{
+        min-height: 470px;
+        height: 470px;
+    }
+}
+
+@media all and (max-width:468px){
+    .promo{
+    }
+}
